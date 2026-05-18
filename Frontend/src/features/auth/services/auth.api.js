@@ -7,18 +7,20 @@ const api = axios.create({
 
 export async function register({ username, email, password }) {
   const response = await api.post("/api/auth/register", {
-    username,
-    email,
+    username: username.trim(),
+    email: email.trim().toLowerCase(),
     password
   })
+
   return response.data
 }
 
 export async function login({ email, password }) {
   const response = await api.post("/api/auth/login", {
-    email,
+    email: email.trim().toLowerCase(),
     password
   })
+
   return response.data
 }
 
@@ -31,3 +33,5 @@ export async function getMe() {
   const response = await api.get("/api/auth/get-me")
   return response.data
 }
+
+export default api

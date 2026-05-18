@@ -12,7 +12,9 @@ const cookieOptions = {
 
 async function registerUserController(req, res) {
   try {
-    const { username, email, password } = req.body
+    const username = req.body.username?.trim()
+    const email = req.body.email?.trim().toLowerCase()
+    const password = req.body.password
 
     if (!username || !email || !password) {
       return res.status(400).json({
@@ -67,7 +69,8 @@ async function registerUserController(req, res) {
 
 async function loginUserController(req, res) {
   try {
-    const { email, password } = req.body
+    const email = req.body.email?.trim().toLowerCase()
+    const password = req.body.password
 
     if (!email || !password) {
       return res.status(400).json({
