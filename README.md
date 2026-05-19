@@ -1,15 +1,8 @@
 # InterviewIQ AI
 
-An AI-powered interview preparation and resume analysis platform built using the MERN stack and Generative AI technologies. The system helps candidates prepare for technical and behavioral interviews by analyzing resumes, understanding job descriptions, identifying skill gaps, and generating intelligent interview reports with personalized feedback.
-
----
-
-# Project Overview
-
-InterviewIQ AI is designed to simulate a modern AI-driven interview preparation environment. Users can upload resumes, provide job descriptions, and receive detailed interview preparation reports generated using Generative AI.
+An AI-powered interview preparation and resume analysis platform built using the MERN stack and Generative AI technologies. The system helps candidates prepare for technical and behavioral interviews by analyzing resumes, understanding job descriptions, identifying skill gaps, and generating intelligent interview reports with personalized feedback.InterviewIQ AI is designed to simulate a modern AI-driven interview preparation environment. Users can upload resumes, provide job descriptions, and receive detailed interview preparation reports generated using Generative AI.
 
 The platform focuses on:
-
 * Resume analysis
 * AI-generated interview questions
 * Technical and behavioral assessment
@@ -20,10 +13,13 @@ The platform focuses on:
 The system aims to improve candidate confidence, technical preparation, and overall interview performance.
 
 ---
-# Secreenshot
+# Some Project Screenshot
 <img width="1288" height="851" alt="image" src="https://github.com/user-attachments/assets/6ee8be56-9396-4574-a655-ac257ba4e8f5" />
 <img width="1225" height="891" alt="image (1)" src="https://github.com/user-attachments/assets/1930ca0e-d874-49bd-92ed-46ba27941149" />
 <img width="1218" height="870" alt="image (3)" src="https://github.com/user-attachments/assets/7dbfa44c-acb4-43fc-863f-7b49ea097e16" />
+<img width="1207" height="858" alt="image (4)" src="https://github.com/user-attachments/assets/766e4942-8f35-45ac-aef6-942bee898f04" />
+<img width="619" height="863" alt="image (2)" src="https://github.com/user-attachments/assets/3eb0e327-8427-4f26-9c10-b55348adaea1" />
+
 
 
 
