@@ -1,4 +1,4 @@
-# InterviewIQ AI
+# IntelliPrep AI
 
 An AI-powered interview preparation and resume analysis platform built using the MERN stack and Generative AI technologies. The system helps candidates prepare for technical and behavioral interviews by analyzing resumes, understanding job descriptions, identifying skill gaps, and generating intelligent interview reports with personalized feedback.InterviewIQ AI is designed to simulate a modern AI-driven interview preparation environment. Users can upload resumes, provide job descriptions, and receive detailed interview preparation reports generated using Generative AI.
 
